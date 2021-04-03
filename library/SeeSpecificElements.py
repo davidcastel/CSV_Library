@@ -21,6 +21,7 @@ class SeeSpecificElements(CSVLibrary):
     def setDict(self, newDict):
         self.__dic = newDict
 
+    # *** Actions ***
     def see(self):
         temp_dict = self.getLocalDict()
 
